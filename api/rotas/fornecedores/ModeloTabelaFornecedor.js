@@ -4,15 +4,15 @@ const instancia = require('../../banco-de-dados');
 const colunas = {
     empresa: {
         type: sequelize.STRING,
-        allowNull = false
+        allowNull: false
     },
     email: {
         type: sequelize.STRING,
-        allowNull = false
+        allowNull: false
     },
     categoria: {
         type: sequelize.ENUM('ração', 'brinquedos'),
-        allowNull = false
+        allowNull: false
     },
 }
 
